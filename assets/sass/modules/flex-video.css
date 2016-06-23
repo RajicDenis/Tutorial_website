@@ -1,0 +1,13 @@
+.flex-video {
+  position: absolute;
+  overflow: hidden;
+  padding-bottom: 50%;
+  margin-top: -300px; }
+
+.flex-video iframe, object, embed, video {
+  height: 100%;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
+/*# sourceMappingURL=flex-video.css.map */

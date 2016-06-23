@@ -1,0 +1,21 @@
+.cta {
+  display: block;
+  font-size: 28px;
+  background: white;
+  color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 0.4em 0;
+  line-height: 1.1;
+  transition: all  0.30s ease-in-out; }
+  .cta:hover {
+    text-decoration: none;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.6); }
+
+.youtube-cta {
+  color: #e20a0a; }
+
+.mentoring-cta {
+  color: #2cb4db; }
+
+/*# sourceMappingURL=buttons.css.map */

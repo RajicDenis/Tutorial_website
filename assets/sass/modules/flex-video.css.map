@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACV,QAAQ,EAAE,QAAQ;EAClB,QAAQ,EAAE,MAAM;EAChB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,MAAM;;AAGpB,wCAAyC;EACvC,MAAM,EAAE,IAAI;EACZ,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,IAAI;EACX,IAAI,EAAE,CAAC",
+"sources": ["flex-video.scss"],
+"names": [],
+"file": "flex-video.css"
+}

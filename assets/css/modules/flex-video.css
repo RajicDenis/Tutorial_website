@@ -1,0 +1,11 @@
+.flex-video {
+  position: absolute;
+  left: 19%;
+  top: 30%; }
+
+.flex-video iframe, object, embed, video {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0; }

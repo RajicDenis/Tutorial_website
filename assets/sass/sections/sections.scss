@@ -1,0 +1,25 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 135px;
+  width: calc(100% - 135px);
+  height: 100%;
+}
+
+.home-footer {
+  display: block;
+  width: 100%;
+  background: #e24040;
+  line-height: 6;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background 150ms ease-in-out;
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background: darken(#e24040, 10%);
+  }
+}

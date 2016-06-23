@@ -1,0 +1,83 @@
+.main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vmax; }
+
+.container-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 135px;
+  height: 100vmax;
+  background: white; }
+
+.logo {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  left: 15px;
+  top: 10px; }
+
+.navigation {
+  position: fixed;
+  top: 220px;
+  text-align: right;
+  padding-left: 10px; }
+
+.mail-link {
+  position: fixed;
+  text-align: right;
+  bottom: 10px;
+  padding-left: 50px; }
+
+.bars-icon {
+  display: none; }
+
+@media all and (max-width: 775px) {
+  .main {
+    display: block;
+    width: 100%;
+    height: 100vmax; }
+  .container-1 {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background: white; }
+    .container-1 .bars-icon {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      width: 80px;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      padding-left: 10px;
+      margin-left: auto; }
+  .logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 15px;
+    top: 5px; }
+  .navigation {
+    display: none; }
+  .container-2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; } }

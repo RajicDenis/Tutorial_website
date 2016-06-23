@@ -1,0 +1,81 @@
+.container-2 {
+  flex: 1;
+  flex-direction: column;
+  height: 100vmax;
+  position: relative;
+}
+
+
+@media all and (max-width: 640px) {
+  .container-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .section-1 {
+    display: block;
+    background: transparent;
+    .col-1 {
+      max-width: 640px;
+      flex-shrink: 0;
+      .section-about {
+        max-width: 640px;
+        align-self: center;
+      }
+    }
+  }
+  .section-2 {
+    display: block;
+    background: white;
+    max-width: 640px;
+    .col-2 {
+      display: block;
+      max-width: 640px;
+      background: transparent;
+      .section-youtube {
+        max-width: 640px;
+      }
+    }
+  }
+  .section-3 {
+    display: block;
+    background: white;
+    max-width: 640px;
+    margin-top: 10px;
+    .col-3 {
+      display: block;
+      max-width: 640px;
+      background: transparent;
+      .section-design {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 640px;
+      }
+    }
+  }
+  .section-4 {
+    display: block;
+    background: white;
+    max-width: 640px;
+    margin-top: 10px;
+    .col-4 {
+      display: block;
+      width: 100%;
+      justify-content: center;
+      .col-4-a {
+        display: block;
+        max-width: 640px;
+      }
+      .section-podcast {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+      }
+    }
+  }
+
+  .mail-link {
+    display: none;
+  }
+}

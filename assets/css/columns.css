@@ -1,0 +1,86 @@
+.container-2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vmax;
+  position: relative; }
+
+@media all and (max-width: 640px) {
+  .container-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 100%; }
+  .section-1 {
+    display: block;
+    background: transparent; }
+    .section-1 .col-1 {
+      max-width: 640px;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
+      .section-1 .col-1 .section-about {
+        max-width: 640px;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center; }
+  .section-2 {
+    display: block;
+    background: white;
+    max-width: 640px; }
+    .section-2 .col-2 {
+      display: block;
+      max-width: 640px;
+      background: transparent; }
+      .section-2 .col-2 .section-youtube {
+        max-width: 640px; }
+  .section-3 {
+    display: block;
+    background: white;
+    max-width: 640px;
+    margin-top: 10px; }
+    .section-3 .col-3 {
+      display: block;
+      max-width: 640px;
+      background: transparent; }
+      .section-3 .col-3 .section-design {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 640px; }
+  .section-4 {
+    display: block;
+    background: white;
+    max-width: 640px;
+    margin-top: 10px; }
+    .section-4 .col-4 {
+      display: block;
+      width: 100%;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .section-4 .col-4 .col-4-a {
+        display: block;
+        max-width: 640px; }
+      .section-4 .col-4 .section-podcast {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify; }
+  .mail-link {
+    display: none; } }

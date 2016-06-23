@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  position: absolute;
+  width: 135px;
+  height: 100%;
+  background: white;
+  .logo {
+    display: block;
+    position: fixed;
+    margin-left: 5px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+  }
+
+  .navigation {
+    display: block;
+    position: fixed;
+    width: 135px;
+    top: 35%;
+    padding-top: 10px;
+  }
+
+  .mail-link {
+    display: block;
+    position: fixed;
+    width: 135px;
+    text-align: center;
+    bottom: 10px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .header {
+    position: relative;
+    width: 100%;
+    height: 135px;
+  }
+}

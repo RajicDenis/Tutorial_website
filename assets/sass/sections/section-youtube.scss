@@ -1,0 +1,52 @@
+.section-youtube {
+  position: relative;
+  display: flex;
+  background: {
+    image: url('/project/domain.dev/images/youtube-bg.jpg');
+    size: cover;
+    position: center;
+  }
+  color: white;
+  width: 100%;
+  .box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    .col-2 {
+      width: 300px;
+      margin: 80px 0;
+    }
+    .box2 {
+      position: relative;
+      display: flex;
+      width: 50%;
+      .video-strip {
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        background: {
+          image: url('/project/domain.dev/images/video-strip.png');
+          repeat: repeat-y;
+          size: cover;
+        }
+      }
+    }
+
+  }
+
+  .space {
+    margin-right: 20px;
+  }
+
+  .outdented {
+    text-indent: -30px;
+  }
+}
+
+@media all and ("max-width: 855px") {
+  .section-youtube {
+    flex-direction: column;
+  }
+}

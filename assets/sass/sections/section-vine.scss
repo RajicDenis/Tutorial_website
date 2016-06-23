@@ -1,0 +1,22 @@
+.section-vine {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  color: white;
+  background: {
+    image: url('/project/domain.dev/images/vine-bg.jpg');
+    size: cover;
+  }
+  .col-5 {
+    width: 300px;
+  }
+  .col-5a {
+    width: 300px;
+  }
+}
+
+
+

@@ -1,0 +1,84 @@
+.section-design {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  color: white; }
+  .section-design .col-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    background-color: #ea4c89;
+    background-image: url("/project/domain.dev/images/design-bg.png");
+    -webkit-transition: background-color 150ms ease-in-out;
+    transition: background-color 150ms ease-in-out; }
+    .section-design .col-6 .dribble {
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; }
+  .section-design .col-6a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    background-color: #1769ff;
+    background-image: url("/project/domain.dev/images/design-bg.png");
+    -webkit-transition: background-color 150ms ease-in-out;
+    transition: background-color 150ms ease-in-out; }
+    .section-design .col-6a .behance {
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; }
+
+.design-img {
+  display: block;
+  width: calc(50% - 10px);
+  float: left;
+  margin: 5px;
+  border: 2px solid white;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); }
+  .design-img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: -webkit-transform 150ms ease-in-out;
+    transition: -webkit-transform 150ms ease-in-out;
+    transition: transform 150ms ease-in-out;
+    transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out; }
+
+.design-container {
+  min-height: 340px; }
+
+.design-lead {
+  font-size: 30px;
+  margin: 30px 0 20px 0; }
+
+.cf {
+  clear: both;
+  top: 20px; }
+
+img {
+  width: 100%;
+  max-height: 100px; }
+
+@media all and (max-width: 855px) {
+  .section-design {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .section-design .col-6 {
+      width: 100%; }
+    .section-design .col-6a {
+      width: 100%; } }
